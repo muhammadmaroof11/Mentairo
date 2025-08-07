@@ -1,0 +1,47 @@
+name: mentairo
+description: Full ready-to-run Mentairo app
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_logo.png"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  agora_rtc_engine: ^6.2.3
+  permission_handler: ^11.3.0
+  uuid: ^4.3.1
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.0.0
+  cloud_firestore: ^4.0.0
+  fl_chart: ^0.66.0
+  firebase_storage: ^11.0.0
+  flutterfire_cli: ^1.2.0
+  intl: ^0.18.1
+  image_picker: ^1.0.7
+  path_provider: ^2.1.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/splash_logo.png
+    - assets/images/app_logo.png
+    - assets/images/logo.png
+    - assets/fonts/
+    - assets/images/default_profile.jpeg
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf
+        - asset: assets/fonts/Montserrat-Bold.ttf
+          weight: 700

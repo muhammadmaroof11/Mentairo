@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "159156132366",
+    "project_id": "mentairo-12b64",
+    "storage_bucket": "mentairo-12b64.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159156132366:android:403d0e13f92ccf2fec7a5f",
+        "android_client_info": {
+          "package_name": "com.example.mentairo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoZ9ScNlV2IFgqRyBsSXwl--AS6OCKoKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
